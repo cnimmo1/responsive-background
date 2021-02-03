@@ -1,0 +1,42 @@
+
+body {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 62.5%;
+}
+
+header {
+	height: 400px;
+	padding: 2rem;
+	background-color: #eff2f7;
+	background: url(../img/small.jpg) center bottom / cover no-repeat;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2.5rem;
+
+}
+
+@media only screen and (min-width: 850px) {
+	header {
+		background: url(../img/medium.jpg) center bottom / cover no-repeat;
+	}
+	h1{
+		font-size: calc(2.5rem + 2vw);
+		color: #fff;
+		text-shadow: 6px 2px 7px #30150d;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	header {
+		height: 500px;
+	}
+}
+
+@media only screen and (min-width: 1500px) {
+	header {
+		background: url(../img/large.jpg) center bottom / cover no-repeat;
+		height: 700px;
+	}
+}
